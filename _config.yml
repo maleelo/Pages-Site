@@ -1,3 +1,7 @@
-theme: jekyll-theme-cayman
+# Site name and description
 title: GitHub Pages
 description: A GitHub Pages test site
+
+# Jekyll theme config
+theme: jekyll-theme-cayman
+show_downloads: false
