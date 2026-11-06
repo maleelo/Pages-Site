@@ -3,6 +3,19 @@
 
 @import "{{ site.theme }}";
 
+/* Navigation styling */
+.site-nav {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.site-nav .btn {
+  margin-bottom: 5px;
+}
+
 /* Change the header background gradient */
 .page-header {
   background-image: linear-gradient(120deg, #155799, #159957);
