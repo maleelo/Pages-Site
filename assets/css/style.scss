@@ -3,17 +3,30 @@
 
 @import "{{ site.theme }}";
 
-/* Navigation styling */
-.site-nav {
-  margin-top: 1.5rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
+/* Standalone Navigation Bar */
+.site-nav-wrapper {
+  background-color: #24292e;
+  padding: 0.75rem 1rem;
 }
 
-.site-nav .btn {
-  margin-bottom: 5px;
+.site-nav {
+  max-width: 64rem;
+  margin: 0 auto;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: flex-start;
+}
+
+.site-nav a {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.site-nav a:hover {
+  color: #1e6bb8;
+  text-decoration: underline;
 }
 
 /* Change the header background gradient */
