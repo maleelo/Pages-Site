@@ -15,13 +15,16 @@
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
-    <header class="page-header" role="banner">
-      <nav class="site-nav">
+    <div class="site-nav-wrapper">
+		<nav class="site-nav">
 				<a href="{{ '/' | relative_url }}" class="btn">Home</a>
 				<a href="{{ '/about.html' | relative_url }}" class="btn">About</a>
 				<a href="{{ '/projects.html' | relative_url }}" class="btn">Projects</a>
 				<a href="{{ '/contact.html' | relative_url }}" class="btn">Contact</a>
-</nav>
+		</nav>
+	</div>
+	  
+	<header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       <a href="{{ '/about.html' | relative_url }}" class="btn">About Me</a>
